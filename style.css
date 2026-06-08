@@ -1,0 +1,82 @@
+.banner{
+    background:
+    linear-gradient(rgba(13,13,13,0.7),rgba(13,13,13,0.7)), url('Aset/banner_coffee.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+}
+
+.text-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.btn-custom{
+    background: #8B5E3C;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.btn-custom:hover{
+    background: #6F4E37;
+}
+.navbar{
+    background-color: #1A1A1A;
+}
+.navbar .nav-link{
+    color: #B8B8B8;
+}
+.navbar .nav-link:hover{
+    color: #D4A017;
+}
+#menu{
+    background: #121212;
+    color: white;
+    padding: 100px 0;
+}.card{
+    background: #2A2A2A;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(212,160,23,.25);
+}
+#about{
+    background: #1A1A1A;
+    color: white;
+}
+#about h2{
+    color: #D4A017;
+}
+#location{
+    background: #121212;
+    color: white;
+}
+#location h2{
+    color: #D4A017;
+}
+#contact{
+    background: #0D0D0D;
+    border-top: 4px solid #8B5E3C;
+}
+#contact h2{
+    color: #D4A017;
+    letter-spacing: 2px;
+}
+.btn-primary{
+    background: #8B5E3C;
+    border: none;
+}
+.btn-primary:hover{
+    background: #6F4E37;
+}
